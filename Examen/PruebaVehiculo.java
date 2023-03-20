@@ -12,8 +12,16 @@ public class PruebaVehiculo {
   for (Vehiculo v : vehiculos) {
         if (v instanceof Motocicleta ) {
            v.acelerar();
+           
+           for (Vehiculo a : vehiculos) {
+        if (a instanceof Automovil) {
+           a.acelerar();
+           
+           
         }
     }
+   }
+  }
    }
 }
  
